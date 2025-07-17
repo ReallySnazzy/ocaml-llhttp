@@ -1,0 +1,12 @@
+(library
+ (name ocaml_llhttp)
+ (public_name ocaml-llhttp)
+ (libraries)
+ (foreign_stubs
+   (flags -I../../lib/vend)
+   (language c)
+   (names api http llhttp stubs))
+)
+
+(include_subdirs unqualified)
+

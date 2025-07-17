@@ -6,12 +6,11 @@ maintainer: ["Jonathan Cooper"]
 authors: ["Jonathan Cooper"]
 license: "MIT"
 homepage: "https://github.com/ReallySnazzy/ocaml-llhttp"
+doc: "https://github.com/ReallySnazzy/ocaml-llhttp/blob/master/README.md"
 bug-reports: "https://github.com/ReallySnazzy/ocaml-llhttp/issues"
 depends: [
   "dune" {>= "3.18"}
   "ocaml"
-  "ctypes"
-  "ctypes-foreign"
   "odoc" {with-doc}
 ]
 build: [

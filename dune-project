@@ -1,6 +1,6 @@
 (lang dune 3.18)
 
-(name ocaml-llhttp)
+(name llhttp)
 
 (generate_opam_files true)
 
@@ -16,7 +16,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name ocaml-llhttp)
+ (name llhttp)
  (synopsis "OCaml bindings for llhttp")
  (description "OCaml bindings for llhttp")
  (depends ocaml))

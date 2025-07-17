@@ -1,9 +1,9 @@
 (library
- (name ocaml_llhttp)
- (public_name ocaml-llhttp)
+ (name llhttp)
+ (public_name llhttp)
  (libraries)
  (foreign_stubs
-   (flags -I../../lib/vend)
+   (flags -I../../lib/vend -fPIC)
    (language c)
    (names api http llhttp stubs))
 )
